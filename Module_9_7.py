@@ -5,9 +5,6 @@ def is_prime(func):
         for i in range(2, sum_):
             if sum_ % i == 0:
                 is_prime = False
-                break
-            else:
-                is_prime = True
         if is_prime == True:
             return (f'{sum_} Простое')
         else:
